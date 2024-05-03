@@ -18,7 +18,6 @@ static int get_prior(char elem) {
 
 
 std::string infx2pstfx(std::string inf) {
-  
   std::string out = "";
   TStack<char, 100> chars;
   for (int i = 0; i < inf.length(); i++) {
